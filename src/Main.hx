@@ -1,3 +1,4 @@
+import h2d.Bitmap;
 import hxd.Key;
 import echo.util.Debug.HeapsDebug;
 import echo.World;
@@ -55,6 +56,10 @@ class Main extends hxd.App {
     // give the entities names
     a.name = 'A';
     b.name = 'B';
+
+    // add some child bitmaps to the entities
+    a.addChild(new Bitmap());
+    b.addChild(new Bitmap());
     
     world.listen(a.body, b.body, {
       separate: true,
