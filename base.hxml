@@ -12,5 +12,5 @@
 -debug
 -D windowSize=640x640
 
-# echo macro
+# echo macro - adds a field named `entity` of type `Entity` to the `echo.Body` class
 --macro echo.Macros.add_data("entity", "Entity")
