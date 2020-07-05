@@ -1,0 +1,16 @@
+# class paths
+-cp src
+
+# entry point
+-main Main
+
+# libraries
+-lib heaps
+-lib echo
+
+# flags
+-debug
+-D windowSize=640x640
+
+# echo macro
+--macro echo.Macros.add_data("entity", "Entity")
