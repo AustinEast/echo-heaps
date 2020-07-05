@@ -72,7 +72,7 @@ class Entity extends Object {
   override function sync(ctx:RenderContext) {
     if (body != null) {
       if (x != body.x) x = body.x;
-      if (y != body.y) x = body.y;
+      if (y != body.y) y = body.y;
       if (rotation != body.rotation) rotation = body.rotation;
     }
 
