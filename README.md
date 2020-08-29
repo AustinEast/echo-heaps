@@ -1,17 +1,20 @@
 # What is this
 
-- This is a game that integrating [echo physics](https://austineast.dev/echo/) with the [heaps engine](https://heaps.io)
+- Simple example for integrating [echo physics](https://austineast.dev/echo/) with the [heaps engine](https://heaps.io).
 
-## How to start
+## Getting Started
+
+### Clone the repo, then install the project's dependencies:
 ```
-# Install deps from both hashlink and web and the shared libs
 $ haxelib install all 
+```
 
-# To produce hashlink target
+### To produce hashlink target
+```
 $ haxe hl.hxml
+```
 
-# To produce browser target
+### To produce Javascript target
+```
 $ haxe js.hxml 
 ```
-
-#### This can also be configured to produce targets for android too
