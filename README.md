@@ -4,17 +4,17 @@ A simple example for integrating [echo physics](https://austineast.dev/echo/) wi
 
 ## Getting Started
 
-### Clone the repo, then install the project's dependencies:
+Clone the repo, then install the project's dependencies:
 ```
 $ haxelib install all 
 ```
 
-### To produce hashlink target
+To produce hashlink target
 ```
 $ haxe hl.hxml
 ```
 
-### To produce Javascript target
+To produce Javascript target
 ```
 $ haxe js.hxml 
 ```
